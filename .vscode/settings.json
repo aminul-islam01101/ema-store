@@ -1,0 +1,37 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true,
+    "source.formatDocument": true
+  },
+  "eslint.alwaysShowStatus": true,
+
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  "tailwindCSS.emmetCompletions": true,
+  "editor.formatOnPaste": false,
+
+  // Runs Prettier, then ESLint
+  //   "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"],
+
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript", // if you are using typescript
+    "typescriptreact": "javascript" // if you are using typescript with react
+  },
+  "editor.quickSuggestions": {
+    "strings": true // forces VS Code to trigger completions when editing "string" content
+  },
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)", // tw`...`
+    "tw\\.[^`]+`([^`]*)`", // tw.xxx<xxx>`...`
+    "tw\\(.*?\\).*?`([^`]*)" // tw(Component)<xxx>`...`
+  ]
+}
