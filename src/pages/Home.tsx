@@ -9,7 +9,7 @@ const Home = () => {
     <Box className='container items-center grid grid-cols-2 gap-5 p-16 justify-center'>
       <Box className='space-y-6 p-5' sx={{ boxShadow: 2 }}>
         <Typography sx={{ color: deepOrange[500] }} variant='subtitle1'>
-          sale upto 900% off
+          sale upto 9% off
         </Typography>
         <Typography variant='h2'>sale upto 90% off</Typography>
         <Typography variant='subtitle1'>New Collection for fall</Typography>
