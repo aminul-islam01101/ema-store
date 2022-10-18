@@ -12,7 +12,7 @@ const Home = () => {
           sale upto 9% off and on <h2>hello</h2>
         </Typography>
         <Typography variant='h2'>sale upto 90% off</Typography>
-        <Typography variant='subtitle1'>New Collection for fall</Typography>
+        <Typography variant='subtitle1'>New Collection for fall something</Typography>
         <p>Discover all the new arrivals of ready-to-wear collection.</p>
         <Link className='no-underline' to={'/shop'}>
           <CustomButton />
