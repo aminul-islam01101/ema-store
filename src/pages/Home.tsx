@@ -11,7 +11,7 @@ const Home = () => {
         <Typography sx={{ color: deepOrange[500] }} variant='subtitle1'>
           sale upto 70% off
         </Typography>
-        <Typography variant='h2'>sale upto 70% off</Typography>
+        <Typography variant='h2'>sale upto 90% off</Typography>
         <Typography variant='subtitle1'>New Collection for fall</Typography>
         <p>Discover all the new arrivals of ready-to-wear collection.</p>
         <Link className='no-underline' to={'/shop'}>
