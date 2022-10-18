@@ -1,5 +1,4 @@
 import storedItems from '../../../products.json';
-import CartItem from './CartItem';
 import ProductCard from './ProductCard';
 
 const Shop = () => {
@@ -13,7 +12,6 @@ const Shop = () => {
           <ProductCard product={product} key={product.id} />
         ))}
       </div>
-      <CartItem />
     </div>
   );
 };
